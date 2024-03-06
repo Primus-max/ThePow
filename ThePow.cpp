@@ -26,5 +26,4 @@ int ThePow(int base, int exponent) {
 		return 1;
 
 	return base * ThePow(base, exponent - 1);
-
 }
